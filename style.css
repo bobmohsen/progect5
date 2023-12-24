@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: black; */
+    color: white;
+    font-weight: bold;
+    background-image: url(./pngtree-domineering-black-gold-new-year-party-background-material-picture-image_978739.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+}
+/* start cred */
+.cred{
+width: 80%;
+margin: auto;
+text-align: center;
+}
+
+@media(max-width:767px){
+    .cred{
+
+    }
+}
+/* start head */
+.head{
+    text-align: center;
+    font-size: 30px;
+
+}
+.head h1{
+    color: blue;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+/* end head */
+
+/* start body */
+.body{
+    margin-top: 40px;
+}
+input{
+    width: 100%;
+    background-color: rgba(187, 157, 240, 0.3);
+    margin: 10px;
+    height: 50px;
+    padding: 10px;
+    color: white;
+    border-style: inset;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border: solid 1px red;
+    transition: 0.5s;
+
+}
+input:focus{
+    background-color: rgba(158, 101, 255, 0.3);
+    transform: scale(0.98);
+    transition: 0.5s;
+
+}
+.body-inbut{
+width: 90%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+@media(max-width:767px){
+    .body-inbut{
+        flex-direction: column;
+        text-align: center;
+        overflow: hidden;
+        margin: auto;
+        margin: 20px auto;
+        padding: 20px;
+        
+        }  
+
+}
+
+#total{
+    background-color: blue;
+    padding: 7px;
+    border-radius: 10px;
+    color: deeppink;
+    font-size: 20px;
+    position: relative;    
+}
+ #total::before{
+    content: "total::";
+ }
+/* end body */
+
+/* start info */
+button{
+    width: 100%;
+    height: 40px;
+    text-transform: uppercase;
+    background-color: #0000ffa1;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: aliceblue;
+cursor: pointer;
+}
+button:hover{
+    letter-spacing: 2px;
+    background-color: #0000ffec;
+    transition: 0.5s;
+    border: solid 1px white;
+
+}
+
+
+.btucearc{
+    display: flex;  
+      justify-content: space-between;
+
+}
+
+.btucearc button{
+    width: 45%;
+}
+@media(max-width:767px){
+    .btucearc button{
+        overflow: auto;    }
+
+}
+#delettell{
+    margin: 25px 0;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+}
+table th{
+    text-transform: uppercase;
+    color: blue;
+    /* margin-bottom: 10px; */
+}
+th,td{
+    padding: 10px;
+}
+
+@media(max-width:767px){
+    .tabl-centr{
+        margin: 20px auto;
+    padding: 20px;
+    overflow-x: auto;
+    }
+}
+/* end info */ 
+button:hover.rd{
+    background-color: rgb(255, 0, 0);
+}
+.rd{
+    background-color: rgb(131, 0, 0);
+}
+/* end cred */
+/* .table {
+    transform: translateY(-500%);
+    transition: 0.5s;
+} */
+/* .actv{
+    transform: translateY(0);
+
+} */
+/* .table{
+    transform: translateY(-120%);
+    transition: 0.5s;
+
+
+} */

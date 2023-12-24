@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prgect 7</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- start cred -->
+<div class="cred">
+    <!-- start head -->
+<div class="head">
+<h1> SALES</h1>
+<p>PRODUCT MANAGEMENT SYSTEM</p>
+</div>
+    <!-- end head -->
+
+<!-- start body -->
+<div class="body">
+
+<input type="text" id="title" placeholder="title">
+<!-- start inbut -->
+<div class="body-inbut">
+
+<input   onchange=" gettotal()" type="number" id="price" placeholder="price" ><!--onchange يعني لما اكتب فيه  -->
+<input   onchange=" gettotal()" type="number" id="tecxt" placeholder="tecxt" >
+<input   onchange=" gettotal()" type="number" id="ads" placeholder="ads" >
+<input   onchange=" gettotal()" type="number" id="discunt" placeholder="discunt" >
+<input  type="date" id="date"  >
+
+<small id="total">   </small>
+</div>
+<!-- end inbut -->
+<input type="number" placeholder="cunt" id="cunt">
+<input type="text" placeholder="catogre" id="catogre">
+<button id="submit">CREAT</button>
+</div>
+<!-- end  body -->
+<!-- start info -->
+<div class="info">
+    <!-- start  charshinbut-->
+<div class="charshinbut">
+    <input onkeyup="cearchdata(value)" type="text" id="cearch" placeholder="cearch"> <!-- لما اكتب شغلي الفنكشن ورجعلي فيها الفاليو يعني الي كتبته فيها-->
+    <!--  -->
+    <div class="btucearc">
+        <button onclick="getsearsgMod(id)" id="cearshtitel">search by titel</button><!--  بتاعها في الفنكشن id شغلي الفنكشن لما اضغط عليها ورجعلي  -->
+        <button onclick="getsearsgMod(id)" class="" id="cearchcategore" >search by categore</button>
+    </div>
+</div>
+    <!-- end  charshinbut-->
+    <div id="delettell"></div> <!--j.s  ده الزرار ميظهرتش غير لما يكون في بيانات وهصممه ب -->
+<!-- start tabl -->
+<div class="tabl-centr">
+<table class="table">
+    <thead>
+       <tr>
+        <th>id</th>
+        <th>titel</th>
+        <th>price</th>
+        <th>taxes</th>
+        <th>sds</th>
+        <th>discount</th>
+        <th>date</th>
+        <th>total</th>
+        <th>categorey</th>
+        <th>update</th>
+        <th>delete</th>
+
+       </tr>
+    </thead>
+    <tbody  id="tbody"><!-- علمته ب علشان هضيف البيانات فيه  id -->
+        <!-- <tr>
+            <td>1</td>
+            <td>fffffff</td>
+            <td>fffffff</td>
+            <td>eeeeeeeee</td>
+            <td>wwwwwww</td>
+            <td>qqqqq</td>    
+            <td>ssssss</td>
+            <td>ssssss</td>
+            <td><button id="update">update</button></td>
+            <td><button id="delete" class="rd">delete</button></td>
+
+
+        </tr> -->
+        
+        </tr>
+    </tbody>
+</table>
+</div>
+<!-- end tabl -->
+
+
+</div>
+<!-- end info -->
+
+
+
+</div>
+        <!-- end cred -->
+
+<samp class="up">up</samp>
+
+<script src="./main.js"></script>
+</body>
+</html>
